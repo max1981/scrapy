@@ -13,7 +13,6 @@ from selenium import webdriver
 
 class AnjukeSpider(CrawlSpider):
     name = "anjuke"
-    print "xxxx"
     allowed_domains = ["guangzhou.anjuke.com"]
     handle_httpstatus_list = [404]
     # start_urls = ['https://guangzhou.anjuke.com/']
